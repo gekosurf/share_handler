@@ -248,7 +248,8 @@ public class SwiftShareHandlerIosPlatform: NSObject, FlutterPlugin, FlutterStrea
                                                             speakableGroupName: groupName,
                                                             conversationIdentifier: media.conversationIdentifier,
                                                             serviceName: media.serviceName,
-                                                            sender: nil)
+                                                            sender: nil,
+                                                            attachments: nil)
 
                 if #available(iOS 12.0, *) {
                     // Add the user's avatar to the intent.
